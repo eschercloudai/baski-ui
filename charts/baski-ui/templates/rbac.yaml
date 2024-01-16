@@ -3,17 +3,17 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: baski-ui
-  labels: { { - include "baski-ui.labels" . | nindent 4 } }
+  labels: {{- include "baski-ui.labels" . | nindent 4 }}
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: baski-ui
-  labels: { { - include "baski-ui.labels" . | nindent 4 } }
+  labels: {{- include "baski-ui.labels" . | nindent 4 }}
 subjects:
   - kind: ServiceAccount
-    namespace: { { .Release.Namespace } }
-    name: { { include "baski-ui.serviceAccountName" . } }
+    namespace: {{ .Release.Namespace }}
+    name: {{ include "baski-ui.serviceAccountName" . }}
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role

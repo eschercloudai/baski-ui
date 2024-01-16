@@ -54,9 +54,5 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 Create the name of the service account to use
 */}}
 {{- define "baski-ui.serviceAccountName" -}}
-{{- if .Values.serviceAccount.create }}
-{{- default (include "baski-ui.fullname" .) .Values.serviceAccount.name }}
-{{- else }}
-{{- default "default" .Values.serviceAccount.name }}
-{{- end }}
+{{ include "baski-ui.fullname" . }}
 {{- end }}
