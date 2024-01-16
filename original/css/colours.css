@@ -1,0 +1,30 @@
+/* styles.css */
+.color-picker {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.color-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.color-options {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.color-option {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.selected-color {
+  font-size: 18px;
+}

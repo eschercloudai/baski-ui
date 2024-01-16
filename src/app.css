@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --brand: rgb(144, 97, 148);
+    --brand-light: rgb(171, 132, 174);
+    --brand-dark: rgb(108, 73, 111);
+    --border: rgb(170, 170, 170);
+    --light-grey: rgb(200, 200, 200);
+    --mid-grey: rgb(128, 128, 128);
+    --dark-grey: rgb(96, 96, 96);
+    --error: deeppink;
+    --radius: .5rem;
+    --shadow-offset: .25rem;
+    --padding: .75rem;
+    --padding-small: .5rem;
+    --icon-size: 1.5rem;
+    --nav-icon-size: 2rem;
+    --nav-width: 100vw;
+    --overlay: rgba(255, 255, 255, .9);
+    --overlay-highlight: rgba(254, 250, 255, .9);
+    --background: rgb(244, 229, 245);
+}
+
+body {
+    background-image: url(/img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-color: var(--background);
+}
