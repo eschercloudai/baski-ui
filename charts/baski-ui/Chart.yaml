@@ -1,0 +1,22 @@
+apiVersion: v2
+name: baski-ui
+description: Deploys Baski UI
+type: application
+version: 0.0.0
+appVersion: "0.0.0"
+maintainers:
+  - name: drew-viles
+    email: "d.viles@eschercloud.ai"
+  - name: yankcrime
+    email: "n.jones@eschercloud.ai"
+  - name: spjmurray
+    email: "s.murray@eschercloud.ai"
+
+keywords:
+  - dogkat
+  - end-2-end
+  - high-availability
+  - ingress
+  - storage
+sources:
+  - https://github.com/eschercloudai/baski-ui/tree/main/charts/baski-ui

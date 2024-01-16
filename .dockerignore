@@ -1,0 +1,9 @@
+node_modules
+charts
+build
+.dockerignore
+.editorconfig
+.eslint*
+.git*
+.prettier*
+.svelte-kit
