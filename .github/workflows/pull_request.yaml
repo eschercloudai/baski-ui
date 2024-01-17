@@ -19,7 +19,9 @@ jobs:
           cache: 'npm'
 
       - name: Run node lint
-        run: npm run lint
+        run: |
+          npm install
+          npm run lint
 
   lint-chart:
     runs-on: ubuntu-latest
