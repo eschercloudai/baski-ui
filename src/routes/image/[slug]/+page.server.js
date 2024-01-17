@@ -1,8 +1,8 @@
 import axios from 'axios';
-import { PUBLIC_API_URL } from '$env/static/public';
+import { env } from '$env/dynamic/private';
 
 export async function load({ params }) {
-	const endpoint = PUBLIC_API_URL + `/api/v1/image/${params.slug}`;
+	const endpoint = env.API_URL + `/api/v1/image/${params.slug}`;
 	const response = await axios.get(endpoint);
 
 	return response.data;
