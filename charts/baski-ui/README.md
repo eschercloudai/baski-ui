@@ -25,6 +25,7 @@ Deploys Baski UI
 | autoscaling.maxReplicas | int | `100` |  |
 | autoscaling.minReplicas | int | `1` |  |
 | autoscaling.targetCPUUtilizationPercentage | int | `80` |  |
+| baskiServer.endpoint | string | `"http://baski-server.baski-server.svc"` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | image.repository | string | `"ghcr.io/eschercloudai/baski-ui"` |  |
