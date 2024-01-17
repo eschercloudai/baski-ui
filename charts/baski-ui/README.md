@@ -46,7 +46,7 @@ Deploys Baski UI
 | resources | object | `{}` |  |
 | securityContext.capabilities.drop[0] | string | `"ALL"` |  |
 | securityContext.readOnlyRootFilesystem | bool | `true` |  |
-| service.port | int | `8080` |  |
+| service.port | int | `3000` |  |
 | service.type | string | `"ClusterIP"` |  |
 | tolerations | list | `[]` |  |
 
