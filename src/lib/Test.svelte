@@ -29,7 +29,7 @@
 </script>
 
 <div class="bg-white flex flex-col p-4">
-	<details class="">
+	<details on:toggle={toggle}>
 		<summary class="flex flex-row place-content-between">
 			<div class="flex-col">
 				<div><span class="text-l"><span class="font-semibold">Test:</span> {test.name}</span></div>

@@ -1,12 +1,5 @@
 <script>
-	import {
-		downIcon,
-		failed_colour,
-		failed_icon,
-		good_colour,
-		good_icon,
-		upIcon
-	} from '$lib/common.js';
+	import { failed_colour, failed_icon, good_colour, good_icon } from '$lib/common.js';
 	import Vuln from '$lib/Vuln.svelte';
 	import Test from '$lib/Test.svelte';
 	import Icon from '@iconify/svelte';
