@@ -6,4 +6,3 @@ export const failed_colour = 'red';
 
 export const downIcon = 'mdi:chevron-down';
 export const upIcon = 'mdi:chevron-up';
-

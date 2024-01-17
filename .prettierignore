@@ -16,4 +16,8 @@ yarn.lock
 /charts
 /docker
 README.md
+CHANGELOG.md
+.github
 .idea
+.eslint*
+.prettier*

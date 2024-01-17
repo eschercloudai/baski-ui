@@ -6,7 +6,11 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex items-center justify-between h-16">
 			<a href="/" aria-current={$page.url.pathname === '/'} class="flex-shrink-0 text-white">
-				<img alt="logo" src="/img/ecai.svg" style="max-height: 2.1em; width: auto; margin-right: 2em;" />
+				<img
+					alt="logo"
+					src="/img/ecai.svg"
+					style="max-height: 2.1em; width: auto; margin-right: 2em;"
+				/>
 			</a>
 		</div>
 	</div>
