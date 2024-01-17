@@ -74,3 +74,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+baskiServer:
+  endpoint: "http://baski-server.baski-server.svc"

@@ -2,8 +2,9 @@
 	import axios from 'axios';
 	import Title from '$lib/Title.svelte';
 	import Card from '$lib/Card.svelte';
+    import { PUBLIC_API_URL } from '$env/static/public';
 
-	const endpoint = 'http://localhost:8080/api/v1/images';
+	const endpoint = PUBLIC_API_URL+"/api/v1/images";
 
 	let promise = load();
 
