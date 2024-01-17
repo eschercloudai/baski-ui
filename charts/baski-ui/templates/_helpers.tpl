@@ -56,12 +56,3 @@ Create the name of the service account to use
 {{- define "baski-ui.serviceAccountName" -}}
 {{ include "baski-ui.fullname" . }}
 {{- end }}
-
-{{/*
-Create image pull secrets
-*/}}
-{{- define "unikorn-ui.imagePullSecrets" -}}
-{{- if .Values.imagePullSecret -}}
-- name: {{ .Values.imagePullSecret }}
-{{ end }}
-{{- end }}
